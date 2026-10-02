@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Team — Hydrant Ops</title>
+<meta name="description" content="The team behind Hydrant Ops — STN44, Rota 2.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect x=%2224%22 y=%226%22 width=%2216%22 height=%228%22 rx=%222%22 fill=%22%23dc2626%22/><rect x=%2220%22 y=%2214%22 width=%2224%22 height=%2230%22 rx=%226%22 fill=%22%23dc2626%22/></svg>">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .team-card { background: var(--panel); padding: 32px 28px; }
+  .avatar {
+    width: 64px; height: 64px; border-radius: 10px;
+    background: linear-gradient(135deg, var(--panel-raised), #1c2740);
+    border: 1px solid var(--line);
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--display); font-size: 22px; color: var(--muted);
+    margin-bottom: 18px;
+  }
+  .edit-note {
+    font-family: var(--mono); font-size: 11px; color: var(--amber);
+    background: #451a03; border: 1px dashed #92400e; border-radius: 6px;
+    padding: 6px 10px; margin-top: 14px; display: inline-block;
+  }
+</style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="nav-brand">
+      <svg class="mark" viewBox="0 0 64 64" fill="none"><rect x="24" y="6" width="16" height="8" rx="2" fill="#dc2626"/><rect x="20" y="14" width="24" height="30" rx="6" fill="#dc2626"/><rect x="14" y="24" width="8" height="8" rx="3" fill="#b91c1c"/><rect x="42" y="24" width="8" height="8" rx="3" fill="#b91c1c"/><rect x="22" y="44" width="20" height="8" rx="2" fill="#991b1b"/><circle cx="32" cy="10" r="3" fill="#450a0a"/></svg>
+      Hydrant Ops
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="how-to-use.html">How to use</a>
+      <a href="about.html">About</a>
+      <a href="team.html" class="current">Team</a>
+      <a href="https://heyhydrant.netlify.app" class="nav-cta" target="_blank" rel="noopener">Launch app</a>
+    </div>
+    <button class="nav-toggle" aria-label="Menu">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</nav>
+
+<section class="tight" style="padding-top:64px; padding-bottom:40px;">
+  <div class="wrap">
+    <p class="eyebrow">TEAM</p>
+    <h1 style="font-size:clamp(32px,5vw,50px);">Three people, STN44, Rota 2</h1>
+    <p class="lede" style="margin-top:16px;">Hydrant Ops is built and maintained by Rota 2 at Station 44 — the names and roles below are placeholders, ready to be filled in.</p>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="wrap">
+    <div class="grid-3">
+      <div class="team-card">
+        <div class="avatar">01</div>
+        <h3>[Name placeholder]</h3>
+        <p style="margin-top:6px; font-size:13.5px;">[Role / rank placeholder]</p>
+        <p style="margin-top:12px; font-size:13.5px;">[One or two lines on what this person contributed — e.g. built the app, led requirements, tested the field flow.]</p>
+        <span class="edit-note">Edit me in team.html</span>
+      </div>
+      <div class="team-card">
+        <div class="avatar">02</div>
+        <h3>[Name placeholder]</h3>
+        <p style="margin-top:6px; font-size:13.5px;">[Role / rank placeholder]</p>
+        <p style="margin-top:12px; font-size:13.5px;">[One or two lines on what this person contributed.]</p>
+        <span class="edit-note">Edit me in team.html</span>
+      </div>
+      <div class="team-card">
+        <div class="avatar">03</div>
+        <h3>[Name placeholder]</h3>
+        <p style="margin-top:6px; font-size:13.5px;">[Role / rank placeholder]</p>
+        <p style="margin-top:12px; font-size:13.5px;">[One or two lines on what this person contributed.]</p>
+        <span class="edit-note">Edit me in team.html</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="wrap">
+    <div class="cell" style="border:1px solid var(--line); border-radius:12px;">
+      <p class="eyebrow">ALL FROM ONE ROTA</p>
+      <p style="font-size:14.5px; max-width:64ch;">Every person here is from STN44, Rota 2 — the same Rota that runs the duty cycle this app was built around. That's deliberate: nothing in Hydrant Ops was designed from outside the job it supports.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>Hydrant Ops — built by STN44, Rota 2. Not an official SCDF product.</p>
+    <div class="foot-links">
+      <a href="index.html">Home</a>
+      <a href="how-to-use.html">How to use</a>
+      <a href="about.html">About</a>
+      <a href="https://heyhydrant.netlify.app" target="_blank" rel="noopener">Launch app</a>
+    </div>
+  </div>
+</footer>
+
+<script src="site.js"></script>
+</body>
+</html>
